@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import CardItem from "./components/CardItem";
+import CardItemImg from "./components/CardItemImg";
 import CardGroup from "react-bootstrap/CardGroup";
 import CardDeck from "react-bootstrap/CardDeck";
 import CardColumns from "react-bootstrap/CardColumns";
@@ -17,14 +17,13 @@ const GridWrapper = styled.div`
 export const Home = (props) => (
   <GridWrapper>
         <CardDeck>
-                  <CardItem source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
-                  <CardItem source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
-                  <CardItem source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
-                  <CardItem source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
-                  <CardItem source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
-                  <CardItem source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
-                  <CardItem source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
-                  <CardItem source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
+                  <CardItemImg source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
+                  <CardItemImg source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
+                  <CardItemImg source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
+                  <CardItemImg source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
+                  <CardItemImg source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
+                  <CardItemImg source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
+                  <CardItemImg source={"../happy_human_1.png"} title={"Ведущий разработчик"} />
         </CardDeck>
   </GridWrapper>
 )

@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
 
-export default class CardItem extends React.Component {
+export default class CardItemImg extends React.Component {
 
     constructor(props) {
         super(props);
@@ -9,10 +9,12 @@ export default class CardItem extends React.Component {
 
     render() {
         return(
-            <Card style={{ width: '103rem' }}>
+            <Card style={{ width: '12rem' }}>
                 <Card.Img src={this.props.source} />
                     <Card.Body>
-                        <Card.Title>{this.props.title}</Card.Title>
+                        <Card.Text>
+                      {this.props.text}
+                    </Card.Text>
                     </Card.Body>
             </Card>
         );
